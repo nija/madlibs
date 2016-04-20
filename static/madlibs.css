@@ -8,8 +8,43 @@ p {
     margin: 0 auto;
 }
 
-.input {
-    font-family: Cursive, sans-serif;
+.from_user {
+    font-family: 'Homemade Apple', Cursive, Courier;
     font-weight: bold;
     color: red;
+    opacity: 1.0;
 }
+
+body {
+    margin: 0;
+}
+#game_background_img {
+    opacity: 0.6;
+    background-image: url('jamaica_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: block;
+    height: 100%;
+    position: absolute;
+}
+
+
+#goodbye_background_img {
+    opacity: 0.6;
+    background-image: url('goodbye.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: block;
+    height: 100%;
+    position: absolute;
+}
+
+#whiteText {
+    font-family: 'Homemade Apple', Cursive, Courier;
+    opacity: 1.0;
+    color: white;
+}
+
+
